@@ -1,0 +1,6 @@
+# Configuration file for oapi-codegen
+package: generate
+generate:
+  echo-server: true
+  models: true
+output: pkg/generate/openapi.gen.go
